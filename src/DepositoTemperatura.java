@@ -15,7 +15,7 @@ public class DepositoTemperatura extends Deposito {
 
     public void mostrarTemperatura(){
 
-        System.out.println(getTemperatura());
+        System.out.println(temperatura);
 
     }
 }

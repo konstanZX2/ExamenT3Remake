@@ -4,7 +4,8 @@ public class Main {
         DepositoTemperatura depositoTemperatura = new DepositoTemperatura(10,100,23);
         DepositoPresion depositoPresion = new DepositoPresion(10,100,30);
 
-        depositoTemperatura.añadirCantidad(10);
+        depositoTemperatura.añadirCantidad(90);
         depositoTemperatura.mostrarCantidad();
+        depositoTemperatura.estaVacio();
     }
 }

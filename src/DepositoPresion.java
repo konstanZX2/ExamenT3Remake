@@ -14,6 +14,6 @@ public class DepositoPresion extends Deposito {
     }
 
     public void mostrarPresion(){
-        System.out.println(getPresion());
+        System.out.println(presion);
     }
 }
